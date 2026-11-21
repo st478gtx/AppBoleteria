@@ -1,0 +1,68 @@
+:root {
+    --bs-body-font-family: "Geist", system-ui, sans-serif;
+    --bs-font-mono: "Geist Mono", ui-monospace, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+main {
+    flex: 1;
+}
+
+.container-boleteria {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2em;
+}
+
+.carousel-boleteria {
+    width: 900px;
+    height: 600px;
+}
+
+.boleteria-lateral {
+    width: 180px;
+}
+
+.contenedor-texto {
+    border: 1px solid #222;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: baseline;
+}
+
+.barra-principal {
+    background-color: #0B1530;
+    color: hsl(0, 0%, 100%);
+
+    padding: 1.8em;
+    height: 6em;
+}
+
+.barra-interna {
+    display: flex;
+    flex-direction: row;
+}
+
+.marca>a {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #0B1530;
+    color: hsl(0, 0%, 100%);
+    height: 10em;
+}
