@@ -1,5 +1,39 @@
 <%@ page pageEncoding="UTF-8"%>
 
-<footer> 
+<footer class="pie-pagina">
+	<div class="pie-columnas">
+		<div class="pie-marca">
+			<span class="pie-logo">Boleteria</span>
+			<p>Compra tus entradas para conciertos, deportes, cine y más.</p>
+		</div>
 
+		<div>
+			<h4>Navegación</h4>
+			<ul>
+				<li><a href="${pageContext.request.contextPath}/">Inicio</a></li>
+				<li><a href="#">Eventos</a></li>
+				<li><a href="#">Mis compras</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<h4>Ayuda</h4>
+			<ul>
+				<li><a href="#">Preguntas frecuentes</a></li>
+				<li><a href="#">Términos y condiciones</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<h4>Síguenos</h4>
+			<ul>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="#">TikTok</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<p class="pie-copy">© <%= java.time.Year.now() %> Boleteria. Todos los derechos reservados.</p>
 </footer>
