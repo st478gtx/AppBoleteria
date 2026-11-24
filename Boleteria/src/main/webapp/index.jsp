@@ -14,15 +14,15 @@ pageEncoding="UTF-8"%>
     />
 
     <link
-      rel="stylesheet"
-      href="${pageContext.request.contextPath}/css/style.css"
-    />
-
-    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
       crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="${pageContext.request.contextPath}/css/style.css"
     />
   </head>
 
