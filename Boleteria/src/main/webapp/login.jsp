@@ -38,6 +38,7 @@ pageEncoding="UTF-8"%>
           class="formulario-login"
           action="${pageContext.request.contextPath}/login"
           method="post"
+          novalidate
         >
           <div class="campo-login">
             <label for="correo">Correo electrónico</label>
@@ -48,6 +49,7 @@ pageEncoding="UTF-8"%>
               placeholder="tucorreo@ejemplo.com"
               autocomplete="email"
             />
+            <small class="error-login" id="error-correo"></small>
           </div>
 
           <div class="campo-login">
@@ -59,6 +61,7 @@ pageEncoding="UTF-8"%>
               placeholder="Tu contraseña"
               autocomplete="current-password"
             />
+            <small class="error-login" id="error-clave"></small>
           </div>
 
           <button type="submit" class="boton-login">Ingresar</button>
@@ -71,5 +74,7 @@ pageEncoding="UTF-8"%>
     </main>
 
     <%@ include file="/WEB-INF/footer.jspf" %>
+
+    <script src="${pageContext.request.contextPath}/js/login.js"></script>
   </body>
 </html>

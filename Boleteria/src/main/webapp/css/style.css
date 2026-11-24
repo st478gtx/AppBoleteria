@@ -299,3 +299,15 @@ footer {
   color: #07182b;
   font-weight: 600;
 }
+
+.campo-login input.campo-invalido {
+  box-shadow: 0 0 0 2px #d93025;
+}
+
+.error-login {
+  display: block;
+  min-height: 1.2em;
+  margin-top: 0.4em;
+  color: #d93025;
+  font-size: 0.85em;
+}
