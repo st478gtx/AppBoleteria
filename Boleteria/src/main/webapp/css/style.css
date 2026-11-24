@@ -43,15 +43,6 @@ main {
   width: 180px;
 }
 
-.contenedor-texto {
-  border: 1px solid #222;
-  width: 150px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: baseline;
-}
-
 .barra-principal {
   background-color: #0b1530;
   color: hsl(0, 0%, 100%);
