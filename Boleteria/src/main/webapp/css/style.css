@@ -222,3 +222,89 @@ footer {
   background: #00b99a;
   transform: scale(1.04);
 }
+
+/* LOGIN */
+.contenedor-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 1em 4em;
+}
+
+.tarjeta-login {
+  width: 100%;
+  max-width: 420px;
+  padding: 2.5em 2em;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 23px;
+}
+
+.tarjeta-login h1 {
+  margin: 0 0 0.3em;
+  color: #07182b;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.login-subtitulo {
+  margin: 0 0 1.8em;
+  color: #56616d;
+}
+
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.campo-login label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #07182b;
+  font-weight: 600;
+}
+
+.campo-login input {
+  width: 100%;
+  height: 52px;
+  padding: 0 14px;
+  border: none;
+  outline: none;
+  background: #f1f5f9;
+  border-radius: 12px;
+  color: #07182b;
+  font-size: 16px;
+}
+
+.campo-login input:focus {
+  box-shadow: 0 0 0 2px #00d5ad;
+}
+
+.boton-login {
+  height: 52px;
+  margin-top: 0.5em;
+  border: none;
+  border-radius: 12px;
+  background: #00d5ad;
+  color: #031323;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.boton-login:hover {
+  background: #00b99a;
+}
+
+.login-registro {
+  margin: 1.5em 0 0;
+  text-align: center;
+  color: #56616d;
+}
+
+.login-registro a {
+  color: #07182b;
+  font-weight: 600;
+}
