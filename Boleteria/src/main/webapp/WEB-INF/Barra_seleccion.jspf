@@ -1,6 +1,8 @@
+<%@ page pageEncoding="UTF-8"%>
+
 <section class="barra-seleccion">
   <div class="seleccion-busqueda">
-    <label for="buscarEvento">Busca tu próximo evento</label>
+    <label for="buscarEvento">Busca tu prÃ³ximo evento</label>
 
     <div class="campo-busqueda">
       <svg
@@ -31,14 +33,14 @@
     <select id="fechaEvento">
       <option value="">Todas</option>
       <option value="hoy">Hoy</option>
-      <option value="manana">Mañana</option>
+      <option value="manana">MaÃ±ana</option>
       <option value="semana">Esta semana</option>
       <option value="mes">Este mes</option>
     </select>
   </div>
 
   <div class="seleccion-grupo">
-    <label for="ubicacionEvento">Ubicación</label>
+    <label for="ubicacionEvento">UbicaciÃ³n</label>
     <input type="text" id="ubicacionEvento" placeholder="Cualquiera" />
   </div>
 
@@ -49,12 +51,12 @@
       <option value="gratis">Gratis</option>
       <option value="0-50">S/ 0 - S/ 50</option>
       <option value="50-100">S/ 50 - S/ 100</option>
-      <option value="100+">Más de S/ 100</option>
+      <option value="100+">MÃ¡s de S/ 100</option>
     </select>
   </div>
 
   <div class="seleccion-grupo">
-    <label for="categoriaEvento">Categorías</label>
+    <label for="categoriaEvento">CategorÃ­as</label>
     <select id="categoriaEvento">
       <option value="">Todas</option>
       <option value="deporte">Deporte</option>

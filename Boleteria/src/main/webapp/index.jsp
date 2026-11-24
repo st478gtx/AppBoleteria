@@ -1,14 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 pageEncoding="UTF-8"%>
 <!doctype html>
-<html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Inicio-Boleteria</title>
+    <title>Boleteria</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap"
       rel="stylesheet"
-      href="${pageContext.request.contextPath}/css/style.css"
     />
 
     <link
@@ -18,7 +20,10 @@ pageEncoding="UTF-8"%>
       crossorigin="anonymous"
     />
 
-    <title>Boleteria</title>
+    <link
+      rel="stylesheet"
+      href="${pageContext.request.contextPath}/css/style.css"
+    />
   </head>
 
   <body data-bs-theme="light">
