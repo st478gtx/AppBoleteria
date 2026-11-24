@@ -71,7 +71,51 @@ main {
 footer {
   background-color: #0b1530;
   color: hsl(0, 0%, 100%);
-  height: 10em;
+  padding: 2.5em 2em 1em;
+}
+
+.pie-columnas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2em;
+}
+
+.pie-logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.pie-columnas h4 {
+  font-size: 1em;
+  margin-bottom: 0.8em;
+}
+
+.pie-columnas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pie-columnas li {
+  margin-bottom: 0.4em;
+}
+
+.pie-columnas a {
+  color: hsl(0, 0%, 80%);
+  text-decoration: none;
+}
+
+.pie-columnas a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.pie-copy {
+  margin: 2em 0 0;
+  padding-top: 1em;
+  border-top: 1px solid hsl(0, 0%, 100%, 0.2);
+  text-align: center;
+  font-size: 0.85em;
+  color: hsl(0, 0%, 70%);
 }
 
 /* BARRA DE SELECCION */
