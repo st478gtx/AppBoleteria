@@ -127,9 +127,33 @@ pageEncoding="UTF-8"%>
         </div>
       </div>
 
-      <div class="boleteria-lateral">
-        <h3>Panel lateral</h3>
-      </div>
+      <aside class="boleteria-lateral">
+        <h3>¿Cómo comprar?</h3>
+
+        <ol class="pasos-compra">
+          <li>
+            <span class="paso-numero">1</span>
+            <div>
+              <strong>Elige tu evento</strong>
+              <p>Busca por nombre, fecha o categoría.</p>
+            </div>
+          </li>
+          <li>
+            <span class="paso-numero">2</span>
+            <div>
+              <strong>Selecciona tu zona</strong>
+              <p>Escoge la zona y la cantidad de entradas.</p>
+            </div>
+          </li>
+          <li>
+            <span class="paso-numero">3</span>
+            <div>
+              <strong>Paga y listo</strong>
+              <p>Recibe tus entradas en tu correo.</p>
+            </div>
+          </li>
+        </ol>
+      </aside>
     </main>
 
     <%@ include file="/WEB-INF/footer.jspf" %>
