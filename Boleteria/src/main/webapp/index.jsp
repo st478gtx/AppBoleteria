@@ -40,7 +40,6 @@ pageEncoding="UTF-8"%>
                 src="${pageContext.request.contextPath}/img/banner/banner01.png"
                 class="d-block w-100"
                 alt="Coro con trajes coloridos cantando en un escenario iluminado con luces azules"
-                srcset=""
               />
             </div>
 
@@ -49,7 +48,6 @@ pageEncoding="UTF-8"%>
                 src="${pageContext.request.contextPath}/img/banner/banner02.png"
                 class="d-block w-100"
                 alt="Niño sobre los hombros de su papá disfrutando un concierto al aire libre"
-                srcset=""
               />
             </div>
 
@@ -58,7 +56,6 @@ pageEncoding="UTF-8"%>
                 src="${pageContext.request.contextPath}/img/banner/banner03.png"
                 class="d-block w-100"
                 alt="Guitarrista tocando frente al público en un concierto íntimo con luz roja"
-                srcset=""
               />
             </div>
 
@@ -67,7 +64,6 @@ pageEncoding="UTF-8"%>
                 src="${pageContext.request.contextPath}/img/banner/banner04.png"
                 class="d-block w-100"
                 alt="Familias con niños sentadas disfrutando un espectáculo"
-                srcset=""
               />
             </div>
           </div>
