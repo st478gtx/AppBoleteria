@@ -9,6 +9,11 @@
 			<a class="navbar-brand" href="${pageContext.request.contextPath}/">Boleteria</a>
 		</div>
 
+		<ul class="nav menu-enlaces">
+			<li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Mis compras</a></li>
+		</ul>
+
 		<div class="barra-interna">
 			<div>
 				<ul class="nav navbar-nav me-auto">
