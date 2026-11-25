@@ -17,7 +17,6 @@ pageEncoding="UTF-8"%>
       rel="stylesheet"
     />
 
-    <!-- Bootstrap 6 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
