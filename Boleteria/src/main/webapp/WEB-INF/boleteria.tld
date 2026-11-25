@@ -10,7 +10,7 @@
 	<tag>
 		<description>Muestra un precio en soles: S/ 1,250.50</description>
 		<name>precio</name>
-		<tag-class>com.boleteria.tags.PrecioTag</tag-class>
+		<tag-class>tags.PrecioTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>valor</name>
