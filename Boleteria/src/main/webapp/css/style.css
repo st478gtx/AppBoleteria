@@ -362,3 +362,44 @@ footer {
   color: #d93025;
   font-size: 0.85em;
 }
+
+
+/* REGISTRO */
+
+.tarjeta-login {
+  width: 100%;
+  max-width: 450px;
+}
+
+.tarjeta-login h1 {
+  margin-bottom: 0.3em;
+}
+
+.formulario-login {
+  gap: 1em;
+}
+
+.campo-login input {
+  transition: box-shadow 0.2s;
+}
+
+.campo-login input:focus {
+  box-shadow: 0 0 0 2px #00d5ad;
+}
+
+.boton-login {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+
+.contenedor-login {
+  padding: 1.5em 1em 3em;
+   }
+
+ .tarjeta-login {
+  padding: 2em 1.3em;
+   }
+
+}
+

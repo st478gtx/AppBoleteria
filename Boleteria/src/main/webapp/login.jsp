@@ -68,7 +68,10 @@ pageEncoding="UTF-8"%>
         </form>
 
         <p class="login-registro">
-          ¿No tienes cuenta? <a href="#">Regístrate</a>
+          ¿No tienes cuenta?
+          <a href="${pageContext.request.contextPath}/Registrarse-Login.jsp">
+            Regístrate
+          </a>
         </p>
       </section>
     </main>

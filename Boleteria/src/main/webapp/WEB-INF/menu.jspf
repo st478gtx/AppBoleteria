@@ -1,35 +1,47 @@
 <%@ page pageEncoding="UTF-8"%>
 
 <header>
-	<nav class="navbar md:navbar-expand barra-principal"
-		data-bs-theme="dark">
+  <nav class="navbar md:navbar-expand barra-principal" data-bs-theme="dark">
+    <div class="marca">
+      <a class="navbar-brand" href="${pageContext.request.contextPath}/"
+        >Boleteria</a
+      >
+    </div>
 
-		<div class="marca">
+    <ul class="nav menu-enlaces">
+      <li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Mis compras</a></li>
+    </ul>
 
-			<a class="navbar-brand" href="${pageContext.request.contextPath}/">Boleteria</a>
-		</div>
-
-		<ul class="nav menu-enlaces">
-			<li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Mis compras</a></li>
-		</ul>
-
-		<div class="barra-interna">
-			<div>
-				<ul class="nav navbar-nav me-auto">
-					<li class="nav-item"><a class="nav-link" href="#">Registrarse</a></li>
-					<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/login.jsp">Iniciar
-							sesión</a></li>
-				</ul>
-			</div>
-			<div>
-				<a href="${pageContext.request.contextPath}/login.jsp">
-					<img
-						src="${pageContext.request.contextPath}/img/account_circle_24dp_E3E3E3_FILL0_wght200_GRAD0_opsz24.svg"
-						width="40" alt="Mi cuenta">
-				</a>
-			</div>
-		</div>
-
-	</nav>
+    <div class="barra-interna">
+      <div>
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="${pageContext.request.contextPath}/Registrarse-Login.jsp"
+            >
+              Registrarse
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="${pageContext.request.contextPath}/login.jsp"
+              >Iniciar sesión</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="${pageContext.request.contextPath}/login.jsp">
+          <img
+            src="${pageContext.request.contextPath}/img/account_circle_24dp_E3E3E3_FILL0_wght200_GRAD0_opsz24.svg"
+            width="40"
+            alt="Mi cuenta"
+          />
+        </a>
+      </div>
+    </div>
+  </nav>
 </header>
