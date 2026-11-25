@@ -1,4 +1,4 @@
-package com.boleteria.tags;
+package tags;
 
 import java.io.IOException;
 import java.math.BigDecimal;
