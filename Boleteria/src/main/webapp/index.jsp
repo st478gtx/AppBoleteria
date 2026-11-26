@@ -14,9 +14,9 @@ pageEncoding="UTF-8"%>
     />
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
       crossorigin="anonymous"
     />
 
@@ -36,8 +36,8 @@ pageEncoding="UTF-8"%>
 
         <div
           id="carousel"
-          class="carousel slide carousel-boleteria"
-          data-bs-ride="carousel"
+          class="carousel carousel-overlay slide carousel-boleteria"
+          data-bs-autoplay="true"
         >
           <div class="carousel-inner rounded-5 overflow-hidden">
             <div class="carousel-item active">
@@ -73,53 +73,57 @@ pageEncoding="UTF-8"%>
             </div>
           </div>
 
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
+          <div class="carousel-overlay-controls">
+            <div>
+              <button
+                class="btn-icon btn-sm btn-subtle theme-secondary"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-icon-prev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
 
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
+              <button
+                class="btn-icon btn-sm btn-subtle theme-secondary"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-icon-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
 
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Banner 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide-to="1"
-              aria-label="Banner 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide-to="2"
-              aria-label="Banner 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide-to="3"
-              aria-label="Banner 4"
-            ></button>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
           </div>
         </div>
       </div>
@@ -156,8 +160,9 @@ pageEncoding="UTF-8"%>
     <%@ include file="/WEB-INF/footer.jspf" %>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
       crossorigin="anonymous"
     ></script>
   </body>
