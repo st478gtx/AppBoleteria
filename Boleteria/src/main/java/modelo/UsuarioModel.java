@@ -24,10 +24,10 @@ public class UsuarioModel implements UsuarioInterface {
 				PreparedStatement psm = cn.prepareStatement(sql);) {
 
 			psm.setString(1, usuario.getNombre());
-			psm.setString(1, usuario.getApellido());	
-			psm.setString(1, usuario.getEmail());	
-			psm.setString(1, usuario.getPassword());	
-			psm.setString(1, usuario.getTelefono());
+			psm.setString(2, usuario.getApellido());	
+			psm.setString(3, usuario.getEmail());	
+			psm.setString(4, usuario.getPassword());	
+			psm.setString(5, usuario.getTelefono());
 			value = psm.executeUpdate();
 
 		} catch (Exception e) {
@@ -86,7 +86,7 @@ public class UsuarioModel implements UsuarioInterface {
 		
 		int value = 0;
 		
-		String sql = "UPDATE usuarios SET nombres = ?, apellidos = ? "
+		String sql = "UPDATE usuarios SET nombres = ?, apellidos = ?, "
 				+ "email = ?, password = ?, telefono = ? "
 				+ "WHERE id_usuario = ?";
 		

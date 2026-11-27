@@ -15,4 +15,6 @@ int registrarUsuario(Trabajador trabajador);
 	int actualizarTrabajador (Trabajador trabajador);
 	
 	int eliminarTrabajador(int idTrabajador);
+	
+	boolean existeCorreo(String correo, int idExcluir);	
 }
