@@ -16,4 +16,5 @@ public interface UsuarioInterface {
 	
 	int eliminarUsuario(int idUsuario);
 	
+	boolean existeCorreo(String correo, int idExcluir);	
 }

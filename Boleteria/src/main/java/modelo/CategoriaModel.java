@@ -17,15 +17,14 @@ public class CategoriaModel implements CategoriaInterface {
 	public int registrarCategoria(Categoria categoria) {
 		int value = 0;
 		
-		String sql = "INSERT INTO categorias (nombre, descripcion, estado) "
-				+ "VALUES (?,?,?) ";
+		String sql = "INSERT INTO categorias (nombre, descripcion) "
+				+ "VALUES (?,?) ";
 		
 		try (Connection cn = MySQLConnection.getConnection();
 				PreparedStatement psm = cn.prepareStatement(sql);) {
 
 			psm.setString(1, categoria.getNombre());
-			psm.setString(2, categoria.getDescripcion());
-			psm.setBoolean(3, categoria.isEstado());			
+			psm.setString(2, categoria.getDescripcion());	
 			value = psm.executeUpdate();
 
 		} catch (Exception e) {
@@ -51,8 +50,7 @@ public class CategoriaModel implements CategoriaInterface {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		
+		}		
 		
 		return lista;
 	}
@@ -84,7 +82,7 @@ public class CategoriaModel implements CategoriaInterface {
 		
 		int value = 0;
 		
-		String sql = "UPDATE categorias SET nombre = ?, descripcion = ?, estado = ?, "
+		String sql = "UPDATE categorias SET nombre = ?, descripcion = ? "
 				+ "WHERE id_categoria = ?";
 		
 		try (Connection cn = MySQLConnection.getConnection();
@@ -92,7 +90,7 @@ public class CategoriaModel implements CategoriaInterface {
 
 			psm.setString(1, categoria.getNombre());
 			psm.setString(2, categoria.getDescripcion());
-			psm.setBoolean(3, categoria.isEstado());
+			psm.setInt(3, categoria.getId());
 			value = psm.executeUpdate();
 
 		} catch (Exception e) {
