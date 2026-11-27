@@ -20,7 +20,7 @@ public class TrabajadorModel implements TrabajadorInterface {
 	}
 
 	@Override
-	public Trabajador obtenerTrabajador() {
+	public Trabajador obtenerTrabajador(int idTrabajador) {
 		// TODO Auto-generated method stub
 		return null;
 	}

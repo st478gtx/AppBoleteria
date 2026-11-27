@@ -10,7 +10,7 @@ public interface EventoInterface {
 	
 	List<Evento> listarEvento();
 	
-	Evento obtenerEvento();
+	Evento obtenerEvento(int id);
 	
 	int actualizarEvento (Evento evento);
 	

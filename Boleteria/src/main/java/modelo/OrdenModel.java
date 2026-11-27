@@ -20,7 +20,7 @@ public class OrdenModel implements OrdenInterface {
 	}
 
 	@Override
-	public Orden obtenerOrden() {
+	public Orden obtenerOrden(int idOrden) {
 		// TODO Auto-generated method stub
 		return null;
 	}

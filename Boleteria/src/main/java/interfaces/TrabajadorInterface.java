@@ -10,7 +10,7 @@ int registrarUsuario(Trabajador trabajador);
 	
 	List<Trabajador> listarTrabajador();
 	
-	Trabajador obtenerTrabajador();
+	Trabajador obtenerTrabajador(int idTrabajador);
 	
 	int actualizarTrabajador (Trabajador trabajador);
 	

@@ -10,7 +10,7 @@ public interface UsuarioInterface {
 	
 	List<Usuario> listarUsuario();
 	
-	Usuario obtenerUsuario();
+	Usuario obtenerUsuario(int idUsuario);
 	
 	int actualizarUsuario (Usuario usuario);
 	

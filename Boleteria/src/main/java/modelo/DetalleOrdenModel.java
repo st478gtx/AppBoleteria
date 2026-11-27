@@ -20,7 +20,7 @@ public class DetalleOrdenModel implements DetalleOrdenInterface {
 	}
 
 	@Override
-	public DetalleOrden obtenerDetalleOrden() {
+	public DetalleOrden obtenerDetalleOrden(int idDetalleOrden) {
 		// TODO Auto-generated method stub
 		return null;
 	}

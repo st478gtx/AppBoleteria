@@ -20,7 +20,7 @@ public class UsuarioModel implements UsuarioInterface {
 	}
 
 	@Override
-	public Usuario obtenerUsuario() {
+	public Usuario obtenerUsuario(int idUsuario) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -10,7 +10,7 @@ public interface TicketInterface {
 	
 	List<Ticket> listarTicket();
 	
-	Ticket obtenerTicket();
+	Ticket obtenerTicket(int idTicket);
 	
 	int actualizarTicket (Ticket ticket);
 	

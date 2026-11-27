@@ -20,7 +20,7 @@ public class TicketModel implements TicketInterface {
 	}
 
 	@Override
-	public Ticket obtenerTicket() {
+	public Ticket obtenerTicket(int idTicket) {
 		// TODO Auto-generated method stub
 		return null;
 	}

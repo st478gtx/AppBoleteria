@@ -20,7 +20,7 @@ public class EventoModel implements EventoInterface {
 	}
 
 	@Override
-	public Evento obtenerEvento() {
+	public Evento obtenerEvento(int idEvento) {
 		// TODO Auto-generated method stub
 		return null;
 	}

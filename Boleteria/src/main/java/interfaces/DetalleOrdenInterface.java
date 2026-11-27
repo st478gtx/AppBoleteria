@@ -10,7 +10,7 @@ public interface DetalleOrdenInterface {
 	
 	List<DetalleOrden> listarDetalleOrden();
 	
-	DetalleOrden obtenerDetalleOrden();
+	DetalleOrden obtenerDetalleOrden(int idOrden);
 	
 	int actualizarDetalleOrden (DetalleOrden detalleOrden);
 	

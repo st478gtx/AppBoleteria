@@ -10,7 +10,7 @@ public interface OrdenInterface {
 	
 	List<Orden> listarOrden();
 	
-	Orden obtenerOrden();
+	Orden obtenerOrden(int idOrden);
 	
 	int actualizarOrden (Orden orden);
 	

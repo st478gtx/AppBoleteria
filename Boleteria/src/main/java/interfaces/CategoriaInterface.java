@@ -10,7 +10,7 @@ public interface CategoriaInterface {
 	
 	List<Categoria> listarCategoria();
 	
-	Categoria obtenerCategoria();
+	Categoria obtenerCategoria(int idOrden);
 	
 	int actualizarCategoria (Categoria categoria);
 	
